@@ -20,6 +20,5 @@ class Solution:
 
 
 getSecondLargest = Solution().getSecondLargest
-# Example usage:
+# Example 
 print(getSecondLargest([2, 3, 6, 6, 5]))  # Output: 5
-# Example usage:
