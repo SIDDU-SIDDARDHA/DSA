@@ -1,0 +1,14 @@
+def maxProfit(prices):
+    res = 0
+
+    # Add all positive differences
+    for i in range(1, len(prices)):
+        if prices[i] > prices[i - 1]:
+            res += prices[i] - prices[i - 1]
+
+    return res
+
+
+# Driver code
+prices = [100, 180, 260, 310, 40, 535, 695]
+print(maxProfit(prices))
